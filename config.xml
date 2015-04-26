@@ -1,7 +1,8 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android   = "http://schemas.android.com/apk/res/android" id="com.carlrdings.craftingguideforminecraft" version="1.1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android   = "http://schemas.android.com/apk/res/android" id="com.carlrydings.craftingguideforminecraftpro" version="1.0.0">
   <name>Crafting Guide for Minecraft Pro</name>
-  <description>Learn how to craft items in Minecraft with this helpful guide, 
-      including: basic items, tools, weapons, armour, food and mechanical.</description>
+  <description>This app shows you what materials you need and how to craft items using those materials in Minecraft. 
+      Crafting guides are included for basic items, tools, weapons, armour, food, mechanical, dyes, brewing, potions, 
+      banners and fireworks. (This app is not official and is not affiliated with either Mojang or Microsoft).</description>
   <author href="http://carlrydings.com" email="carl.ryds@hotmail.co.uk">Carl Rydings</author>
   <content src="index.html"/>
     
@@ -40,6 +41,7 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
+  <gap:plugin name="com.telerik.plugins.nativepagetransitions" version="0.2.2" />
     
   <icon src="icon.png"/>
   <icon src="www/icon.png"/>
@@ -48,9 +50,6 @@
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
   <icon src="www/res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
-    
-  <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
-  <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
     
   <icon src="www/res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
   <icon src="www/res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
@@ -65,8 +64,6 @@
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
   <gap:splash src="www/res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
-    
-  <gap:splash src="www/res/screen/blackberry/screen-225.png" gap:platform="blackberry"/>
     
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480"/>
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960"/>
