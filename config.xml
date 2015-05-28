@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android   = "http://schemas.android.com/apk/res/android" id="com.carlrydings.craftingguideforminecraftpro" version="1.0.0">
-  <name>Crafting Guide for Minecraft Pro</name>
+  <name>Crafting Guide for Minecraft +</name>
   <description>This app shows you what materials you need and how to craft items using those materials in Minecraft. 
       Crafting guides are included for basic items, tools, weapons, armour, food, mechanical, dyes, brewing, potions, 
       banners and fireworks. (This app is not official and is not affiliated with either Mojang or Microsoft).</description>
@@ -13,7 +13,7 @@
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
-  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="ios-statusbarstyle" value="black"/>
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
   <preference name="show-splash-screen-spinner" value="true"/>
