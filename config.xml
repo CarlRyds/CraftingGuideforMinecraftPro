@@ -1,8 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android   = "http://schemas.android.com/apk/res/android" id="com.carlrydings.craftingguideforminecraftpro" version="1.0.0">
   <name>Crafting Guide for Minecraft +</name>
-  <description>This app shows you what materials you need and how to craft items using those materials in Minecraft. 
-      Crafting guides are included for basic items, tools, weapons, armour, food, mechanical, dyes, brewing, potions, 
-      banners and fireworks. (This app is not official and is not affiliated with either Mojang or Microsoft).</description>
+  <description>This app shows you what materials you need and how to craft items using those materials in Minecraft. Crafting guides are included for basic items, tools, weapons, armour, food, mechanical, dyes, brewing, potions, banners and fireworks. (This app is not official and is not affiliated with either Mojang or Microsoft).</description>
   <author href="http://carlrydings.com" email="carl.ryds@hotmail.co.uk">Carl Rydings</author>
   <content src="index.html"/>
     
@@ -18,30 +16,26 @@
   <preference name="exit-on-suspend" value="false"/>
   <preference name="show-splash-screen-spinner" value="true"/>
   <preference name="auto-hide-splash-screen" value="true"/>
+  <preference name="SplashScreenDelay" value="10000" />
   <preference name="disable-cursor" value="false"/>
-  <preference name="android-minSdkVersion" value="7"/>
+  <preference name="android-minSdkVersion" value="17"/>
   <preference name="android-installLocation" value="auto"/>
+  <preference name="EnableViewportScale" value="true" />
     
   <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
   <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.camera"/>
-  <gap:plugin name="org.apache.cordova.media-capture"/>
   <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
   <gap:plugin name="org.apache.cordova.device"/>
   <gap:plugin name="org.apache.cordova.device-motion"/>
   <gap:plugin name="org.apache.cordova.device-orientation"/>
   <gap:plugin name="org.apache.cordova.dialogs"/>
   <gap:plugin name="org.apache.cordova.file"/>
   <gap:plugin name="org.apache.cordova.file-transfer"/>
-  <gap:plugin name="org.apache.cordova.geolocation"/>
   <gap:plugin name="org.apache.cordova.globalization"/>
   <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.media"/>
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <gap:plugin name="com.telerik.plugins.nativepagetransitions" version="0.2.2" />
     
   <icon src="icon.png"/>
   <icon src="www/icon.png"/>
@@ -56,10 +50,14 @@
   <icon src="www/res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
   <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
     
-  <icon src="www/res/icon/webos/icon-64.png" gap:platform="webos"/>
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
   <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
   
+    <platform name="wp8">
+              <icon src="www/res/icon/wp8/ApplicationIcon.png" width="99" height="99" />
+              <splash src="www/res/screen/wp8/SplashScreenImage.jpg" width="768" height="1280"/>
+    </platform>
+    
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
