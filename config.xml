@@ -50,12 +50,12 @@
   <icon src="www/res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
   <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
     
-  <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
-  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
+  <icon src="res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
+  <icon src="res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
   
     <platform name="wp8">
-              <icon src="www/res/icon/wp8/ApplicationIcon.png" width="99" height="99" />
-              <splash src="www/res/screen/wp8/SplashScreenImage.jpg" width="768" height="1280"/>
+              <icon src="res/icon/wp8/ApplicationIcon.png" width="99" height="99" />
+              <splash src="res/screen/wp8/SplashScreenImage.jpg" width="768" height="1280"/>
     </platform>
     
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
@@ -69,7 +69,7 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
     
-  <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
+  <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
     
   <access origin="*"/>
 </widget>
